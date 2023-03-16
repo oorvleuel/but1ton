@@ -1,0 +1,42 @@
+.main {
+    background-color: lightsteelblue;
+    height: 50px;
+}
+
+.button {
+    color: brown;
+}
+
+.button1 {
+    color: red;
+}
+
+@font-face {
+    font-family: "Bebas-Regular" ;
+    src: url(../fonts/Bebas-Regular.ttf);
+}
+
+* {
+    font-family: "Bebas-Regular" ;
+}
+
+.button1 {
+    font-weight: 100;
+    font-size: 12pt;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Monserrat-SemiBold";
+    src: url(../fonts/Monserrat-SemiBold.ttf);
+}
+
+* {
+    font-family: "Monserrat-SemiBold";
+}
+
+.button {
+    font-weight: bolder;
+    font-size: 12pt;
+    font-style: normal;
+}
